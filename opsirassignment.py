@@ -26,13 +26,12 @@ def row_echelon(mtx):
   return temp_mtx
 
 if __name__=='__main__':
-  print ("[ Row Echelon Calculator ] ")
   print ("Type any number of rows of whitespace-separated floating numbers to \nmake a matrix.")
-  print ("Type a . to stop entering a matrix.")
+  print ("Type  . to stop entering a matrix.")
   mtx = []
 
 
-  n_tries = 1000
+  n_tries = 690
   while n_tries > 0:
     n_tries -= 1
     try: 
